@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVision Academy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .navbar {
+            background-color: #ffffff;
+        }
+
+        .navbar-brand img {
+            height: 40px;
+        }
+
+        .hero {
+            background-image: url('https://www.innomatics.in/wp-content/uploads/2023/01/AWARD-PAGE.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+        }
+
+        .course-card {
+            transition: transform 0.3s;
+        }
+
+        .course-card:hover {
+            transform: scale(1.05);
+        }
+
+        .awards {
+            background-color: #f8f9fa;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://images.wuzzuf-data.net/files/company_covers/thumbs/501706042c61e7fd6046e09446289c13.jpeg"
+                    alt="TechVision Academy Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#awards">Awards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#classrooms">Classrooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero text-center">
+        <div class="container">
+            <h1 class="display-4">Welcome to TechVision Academy</h1>
+            <p class="lead">Shaping Future Leaders with Advanced Technology Education</p>
+            <a href="#courses" class="btn btn-primary btn-lg">Explore Our Courses</a>
+        </div>
+    </header>
+
+    <section id="courses" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Courses</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card course-card">
+                        <img src="https://www.innomatics.in/wp-content/uploads/2023/01/No-1-best-data-science-course-training-institute-in-hyderabad.jpg"
+                            class="card-img-top" alt="Data Science Course">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Science</h5>
+                            <p class="card-text">Master data science and analytics with real-world applications.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card course-card">
+                        <img src="https://www.innomatics.in/wp-content/uploads/2023/01/Full-Stack-Web-Development-training-program-Innomatics-research-labs-india.png"
+                            class="card-img-top" alt="Full Stack Web Development">
+                        <div class="card-body">
+                            <h5 class="card-title">Full Stack Web Development</h5>
+                            <p class="card-text">Become a versatile web developer with expertise in front-end and
+                                back-end technologies.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card course-card">
+                        <img src="https://www.innomatics.in/wp-content/uploads/2023/01/digital-marketing-course-training-hyderabad.jpg"
+                            class="card-img-top" alt="Digital Marketing">
+                        <div class="card-body">
+                            <h5 class="card-title">Digital Marketing</h5>
+                            <p class="card-text">Stay ahead in the digital world with our comprehensive digital
+                                marketing course.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card course-card">
+                        <img src="https://www.innomatics.in/wp-content/uploads/2023/01/big-data-analytics-with-hadoop-training-in-hyderabad-india.jpg"
+                            class="card-img-top" alt="Big Data Analytics">
+                        <div class="card-body">
+                            <h5 class="card-title">Big Data Analytics</h5>
+                            <p class="card-text">Unlock the potential of big data with hands-on Hadoop training.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card course-card">
+                        <img src="https://www.innomatics.in/wp-content/uploads/2023/01/AWS-training-institute-Innomatics-research-labs-Kukatpallihyderabad.jpg"
+                            class="card-img-top" alt="AWS Training">
+                        <div class="card-body">
+                            <h5 class="card-title">AWS Training</h5>
+                            <p class="card-text">Gain in-depth knowledge and hands-on skills in AWS cloud services.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card course-card">
+                        <img src="https://www.innomatics.in/wp-content/uploads/2023/01/Devops-institute-Innomatics-research-labs-KukatpallyHyderabad.jpg"
+                            class="card-img-top" alt="DevOps Training">
+                        <div class="card-body">
+                            <h5 class="card-title">DevOps Training</h5>
+                            <p class="card-text">Enhance collaboration between development and operations teams with our
+                                DevOps course.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="awards" class="awards py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Achievements</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="https://www.innomatics.in/wp-content/uploads/2023/12/mb-banner.jpg"
+                        alt="TechVision Academy Awards" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <h3>Awarded for Excellence</h3>
+                    <p>TechVision Academy has received several accolades for excellence in tech education.</p>
+                    <ul>
+                        <li>Top-rated Data Science Institute</li>
+                        <li>Best Full Stack Development Education Provider</li>
+                        <li>Leading Digital Marketing Training Center</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="classrooms" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Classrooms</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="https://www.innomatics.in/wp-content/uploads/cache/2023/01/IMG_5450-scaled/2374760138.jpg"
+                        alt="Classroom 1" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="https://www.innomatics.in/wp-content/uploads/cache/2023/01/IMG_5414-scaled/2727721008.jpg"
+                        alt="Classroom 2" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="https://www.innomatics.in/wp-content/uploads/cache/2023/01/IMG_5452-scaled/2408469614.jpg"
+                        alt="Classroom 3" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="internship" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Full Stack Internship Program</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="https://www.innomatics.in/wp-content/uploads/2024/09/full-stack-internship.jpg"
+                        alt="Full Stack Internship" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <h3>Experience Real-World Projects</h3>
+                    <p>Join our Full Stack Internship Program and gain hands-on experience working on live industry
+                        projects.</p>
+                    <a href="#" class="btn btn-primary">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option>Select a Course</option>
+                                <option>Data Science</option>
+                                <option>Full Stack Web Development</option>
+                                <option>Digital Marketing</option>
+                                <option>Big Data Analytics</option>
+                                <option>AWS Training</option>
+                                <option>DevOps Training</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6dcd7b175398135.64b2dee13b3f8.jpg"
+                        alt="TechVision Academy Footer Logo" class="img-fluid mb-3">
+                    <p>Empowering the future through technology education.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#awards">Awards</a></li>
+                        <li><a href="#classrooms">Classrooms</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Connect With Us</h5>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="text-white mr-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white mr-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white mr-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-4 mb-3">
+            <!-- <p class="text-center">&copy; 2023 TechVision Academy. All rights reserved.</p> -->
+            <p class="text-center">&copy; <span id="current-year"></span> TechVision Academy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
